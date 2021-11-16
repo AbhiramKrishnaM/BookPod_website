@@ -1,0 +1,128 @@
+/* fonts
+
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Source Serif Pro', serif;
+
+*/
+
+/* setting default styles */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0px 10% 0px 10%;
+  font-family: "Source Serif Pro", serif;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #333333;
+}
+
+/* navbar styling */
+
+.nav {
+  min-height: 14vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* navbar:::: Logo styles */
+.nav-element_logo {
+  flex: 1;
+  font-size: 40px;
+  font-weight: bold;
+  color: #333333;
+  cursor: pointer;
+}
+
+.nav-element_dot {
+  color: #004687;
+}
+
+/* navbar:::: unordered list flex property set */
+.nav-element_list-container {
+  flex: 5;
+  width: 30%;
+}
+.nav-element_ulist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-element_ulist li {
+  margin: 0px 50px 0px 50px;
+}
+
+/* navbar:::: search box with search icon and input field */
+.nav-element_input {
+  padding: 12px 18px 12px 18px;
+  background-color: #ededed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.nav-element_input img {
+  height: 20px;
+  width: 20px;
+}
+.nav-element_input input {
+  margin: 0px 10px 0px 10px;
+  padding: 0px 10px 0px 10px;
+  outline: none;
+  border: none;
+  background-color: #ededed;
+  color: #b1b1b1;
+}
+
+.nav-element_input input::placeholder {
+  color: #b1b1b1;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+/* Content styles */
+.content-and-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+/* Content styles:::: content  */
+.content-and-cta_content {
+  font-size: 75px;
+  margin: 20px;
+}
+.content-and-cta_number {
+  color: #004687;
+}
+.content-and-cta_content2 {
+  font-weight: 100;
+  font-size: 30px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #b1b1b1;
+}
+
+/* call to action */
+.content-and-cta_cta {
+  margin: 20px;
+  padding: 20px 50px 20px 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: #004687;
+  color: white;
+  font-size: 20px;
+}
